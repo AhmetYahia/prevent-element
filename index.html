@@ -3,12 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./main.css">
+    <style>
+        div {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        a {
+            width: 3em;
+            padding: 10px;
+            color: black;
+            border-radius: 6px;
+            text-decoration: none;
+            border: 1px solid #00000021;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 5px 0px;
+
+            /* To prevent elements from receiving click events */
+            pointer-events: none; 
+        }
+    </style>
     <title>Document</title>
 </head>
 <body>
-    <div class="disabled-element">
-        لا يمكنك التفاعل معي.
+    <div>
+        <a href="./thanks.html">
+            Button
+        </a>
     </div>
 </body>
 </html>

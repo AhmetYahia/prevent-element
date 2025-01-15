@@ -1,4 +1,0 @@
-.disabled-element {
-    pointer-events: none;
-    opacity: 0.5; /* اختياري لتوضيح أن العنصر غير متفاعل */
-}
